@@ -50,3 +50,15 @@ let array = [10, 20, 30, 40, 50];
 let rev = reverseArr(array);
 console.log("Array is : " + array);
 console.log("New Array is : " + rev);
+
+// array properties and methods
+const newArr=[] //create an array
+newArr[0]="aa"  //provide the elements
+newArr[1]="bb"
+newArr[2]="cc"
+newArr[3]="dd"
+console.log(newArr)
+console.log(" arr length is :",newArr.length)
+console.log(newArr.sort());
+
+
